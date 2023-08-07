@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.bg{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://www.eko-solution.com/wp-content/uploads/2019/11/penang-shopping-cart-ecommerce.jpg");
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 14%;
+    padding-right: 16%;
+}
+.logo{
+    color: gold;
+    font-size: 28px;
+}
+span{
+    color:whitesmoke;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 15px;
+    font-weight: bold;
+    color:ivory;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 110%;
+}
+nav ul li:hover{
+    color: gold;
+    transition: .4s;
+}
+button{
+    border: none;
+    background: gold;
+    padding: 8px 22px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#footer{
+    color:rgb(250, 213, 6);
+    padding: 8px 22px;
+    text-size-adjust: 80;
+    font-weight: bolder;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
